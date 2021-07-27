@@ -1,0 +1,45 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon public/server.js",
+    "debug": "ndb public/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mongoose": "^5.11.97",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.1.0",
+    "express-rate-limit": "^5.3.0",
+    "helmet": "^4.6.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.13.3",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.6.2",
+    "slugify": "^1.5.3",
+    "superagent": "^6.1.0",
+    "validator": "^13.6.0",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/express": "^4.17.13",
+    "@types/express-rate-limit": "^5.1.3",
+    "@types/hpp": "^0.2.2",
+    "@types/jsonwebtoken": "^8.5.4",
+    "@types/nodemailer": "^6.4.4",
+    "@types/validator": "^13.6.3",
+    "ndb": "^1.1.5",
+    "nodemon": "^2.0.7"
+  },
+  "description": ""
+}
